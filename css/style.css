@@ -90,3 +90,9 @@ footer {
   padding: 18px;
   font-size: 14px;
 }
+/* FORCE full-width header and nav on all pages */
+header,
+nav {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
