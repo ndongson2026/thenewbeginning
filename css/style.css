@@ -1,4 +1,20 @@
+/* --- GLOBAL HEADER RESET (DO NOT REMOVE) --- */
+header {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
 
+header nav {
+  max-width: none;
+  margin: 0 auto;
+}
+
+body > header {
+  display: block;
+}
 /* Global */
 body {
   margin: 0;
