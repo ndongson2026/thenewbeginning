@@ -28,22 +28,24 @@ header p {
 
 /* Navigation Bar */
 nav {
-  background: #083b7a;
+  background: transparent;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 12px 0;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin: 8px 15px;
+  padding: 8px 14px;
   font-weight: bold;
+  border-radius: 6px;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.15);
 }
 
 /* Content Section */
