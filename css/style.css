@@ -96,6 +96,18 @@ button:hover {
   gap: 15px;
   margin-top: 20px;
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
 
 .gallery-item {
   width: 100%;
