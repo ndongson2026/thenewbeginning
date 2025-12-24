@@ -176,3 +176,17 @@ button:hover {
   line-height: 1.4;
   color: #444;
 }
+header {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  padding: 5px 10px;
+}
