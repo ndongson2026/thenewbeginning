@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Contact | The New Beginning</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<header>
-  <h1>Contact Us</h1>
-  <nav>
+<header class="site-header">
+  <h1>The New Beginning</h1>
+  <p>Hope • Education • Community</p>
+
+  <nav class="site-nav">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="projects.html">Projects</a>
@@ -19,38 +23,56 @@
   </nav>
 </header>
 
-<section>
+<main class="content">
   <section>
-  <h2>Get in Touch</h2>
+    <h2>Contact Us</h2>
 
-  <p>
-    You can reach us directly using the contact details below,
-    or send us a message through the form.
-  </p>
+    <p>
+      We would love to hear from you.  
+      Whether you want to support our work, collaborate, or learn more about
+      The New Beginning, feel free to reach out.
+    </p>
 
-  <p>
-    <strong>Email:</strong>
-    <a href="mailto:ndongson2001@yahoo.com">
-      ndongson2001@yahoo.com
-    </a><br><br>
+    <h3>Contact Details</h3>
+    <p>
+      📧 Email: <strong>thenewbeginning@email.com</strong><br>
+      📍 Location: Cameroon
+    </p>
 
-    <strong>Phone:</strong> +236 677 441 880<br><br>
-    <strong>Location:</strong> Cameroon
-  </p>
+    <h3>Send Us a Message</h3>
 
-  <form>
-    <label>Name</label><br>
-    <input type="text" placeholder="Your name" required><br><br>
+    <!-- SIMPLE CONTACT FORM (static for now) -->
+    <form>
+      <p>
+        <input type="text" placeholder="Your Name" style="width:100%; padding:10px;">
+      </p>
 
-    <label>Email</label><br>
-    <input type="email" placeholder="Your email" required><br><br>
+      <p>
+        <input type="email" placeholder="Your Email" style="width:100%; padding:10px;">
+      </p>
 
-    <label>Message</label><br>
-    <textarea rows="5" placeholder="Your message" required></textarea><br><br>
+      <p>
+        <textarea placeholder="Your Message" rows="5" style="width:100%; padding:10px;"></textarea>
+      </p>
 
-    <button type="submit">Send Message</button>
-  </form>
-</section>
+      <p>
+        <button type="submit" style="padding:10px 20px;">
+          Send Message
+        </button>
+      </p>
+    </form>
+
+    <p style="font-size:14px; color:#555;">
+      ⚠️ This form does not send messages yet.
+      A backend or form service will be added later.
+    </p>
+
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 The New Beginning. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
