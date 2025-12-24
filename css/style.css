@@ -1,21 +1,8 @@
-/* --- GLOBAL HEADER RESET (DO NOT REMOVE) --- */
-header {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
+/* ===== GLOBAL RESET ===== */
+* {
+  box-sizing: border-box;
 }
 
-header nav {
-  max-width: none;
-  margin: 0 auto;
-}
-
-body > header {
-  display: block;
-}
-/* Global */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -23,37 +10,36 @@ body {
   color: #333;
 }
 
-/* Main Header (Top Blue Area) */
-header {
+/* ===== HEADER ===== */
+.site-header {
+  width: 100%;
   background: #0b5ed7;
   color: white;
   text-align: center;
-  padding: 60px 20px 40px;
-
+  padding: 50px 20px 30px;
 }
 
-header h1 {
+.site-header h1 {
   margin: 0;
   font-size: 34px;
 }
 
-header p {
+.site-header p {
   margin-top: 10px;
   font-size: 16px;
   opacity: 0.95;
 }
 
-/* Navigation Bar */
-nav {
-  background: transparent;
+/* ===== NAVIGATION ===== */
+.site-nav {
+  margin-top: 25px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 20px;
 }
 
-nav a {
+.site-nav a {
   color: white;
   text-decoration: none;
   padding: 8px 14px;
@@ -61,18 +47,23 @@ nav a {
   border-radius: 6px;
 }
 
-nav a:hover {
-  background: rgba(255, 255, 255, 0.15);
+.site-nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
-/* Content Section */
-section {
+/* ===== MAIN CONTENT ===== */
+.content {
   max-width: 900px;
   margin: auto;
   padding: 40px 20px;
 }
 
-/* Gallery */
+.content h2 {
+  margin-top: 0;
+  color: #0b5ed7;
+}
+
+/* ===== GALLERY ===== */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -98,17 +89,12 @@ section {
   color: #555;
 }
 
-/* Footer */
-footer {
+/* ===== FOOTER ===== */
+.site-footer {
   background: #0b5ed7;
   color: white;
   text-align: center;
   padding: 18px;
   font-size: 14px;
-}
-/* FORCE full-width header and nav on all pages */
-header,
-nav {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  margin-top: 40px;
 }
